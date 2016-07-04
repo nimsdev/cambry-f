@@ -78,7 +78,7 @@ body {
 
 .topsection {
     background: /*        linear-gradient(rgba(255, 64, 109, 0.51), rgba(255, 64, 109, 0.51) ), */
-    linear-gradient(rgba(51, 51, 51, 0.71), rgba(51, 51, 51, 0.71)), url(/images/headerimg.jpeg) no-repeat;
+    linear-gradient(rgba(51, 51, 51, 0.71), rgba(51, 51, 51, 0.71)), url(images/headerimg.jpeg) no-repeat;
     background-size: 100% 100%;
     height: 700px;
     color: white;
