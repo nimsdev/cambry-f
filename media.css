@@ -220,6 +220,14 @@ p.aboutus {
     width: 90%;
 }
     
+    img.logoclass{
+        width:90%;
+    }  
+    
+.infosection {
+font-size:15pt;
+    }
+    
         
     
 .holder, .holder2 {
@@ -244,3 +252,102 @@ p.aboutus {
 }
 
 
+@media only screen 
+and (min-width : 768px) 
+and (max-width : 1024px) 
+and (orientation : landscape) {
+
+    .trainerbox {
+    border: 3px solid rgba(201, 201, 201, 0.19);
+    
+    display:block;
+    height: 550px;
+    border-radius: 5px;
+    position: relative;
+    bottom: 0px;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    background: #FFF;
+    padding-bottom: 15px;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    
+    }
+    
+    
+.cardio {
+    background: linear-gradient(rgba(51, 51, 51, 0.71), rgba(51, 51, 51, 0.71)), url(images/runner.jpeg) no-repeat;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    width: 100%;
+    background-size: 100% 100%;
+    transition: all .4s ease;
+    -webkit-transition: all .4s ease;
+    -moz-transition: all .4s ease;
+    color: white;
+}    
+    
+.cardio p {
+    color: white;
+    transition: all .4s ease;
+    -webkit-transition: all .4s ease;
+    -moz-transition: all .4s ease;
+}
+    
+.cardio h3 {
+    /*    line-height: 10px;*/
+    font-size: 36pt;
+    margin-top: 90px;
+    transition: all .4s ease;
+    -webkit-transition: all .4s ease;
+    -moz-transition: all .4s ease;
+}
+    
+  
+    
+.strength, .yoga {
+    
+    padding-top: 100px;
+    padding-bottom: 100px;
+    width: 100%;
+    background-size: 100% 100%;
+    transition: all .4s ease;
+    -webkit-transition: all .4s ease;
+    -moz-transition: all .4s ease;
+    color: white;
+}    
+    
+.strength p {
+    color: white;
+    transition: all .4s ease;
+    -webkit-transition: all .4s ease;
+    -moz-transition: all .4s ease;
+}
+    
+.strength h3 {
+    /*    line-height: 10px;*/
+    font-size: 36pt;
+    margin-top: 90px;
+    transition: all .4s ease;
+    -webkit-transition: all .4s ease;
+    -moz-transition: all .4s ease;
+}    
+    
+.yoga p {
+    color: white;
+    transition: all .4s ease;
+    -webkit-transition: all .4s ease;
+    -moz-transition: all .4s ease;
+}
+    
+.yoga h3 {
+    /*    line-height: 10px;*/
+    font-size: 36pt;
+    margin-top: 90px;
+    transition: all .4s ease;
+    -webkit-transition: all .4s ease;
+    -moz-transition: all .4s ease;
+}     
+    
+}
