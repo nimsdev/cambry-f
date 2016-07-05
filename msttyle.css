@@ -69,11 +69,12 @@ body {
 }
 
 .clearfix:after {
-   content: " "; /* Older browser do not support empty content */
-   visibility: hidden;
-   display: block;
-   height: 0;
-   clear: both;
+    content: " ";
+    /* Older browser do not support empty content */
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both;
 }
 
 .topsection {
@@ -154,7 +155,7 @@ img.logoclass {
 box-shadow: 0px -9px 23px -8px rgba(0,0,0,0.75);
     border-top:10px solid #242436;*/
     padding-top: 155px;
-/*    padding-bottom: 600px;*/
+    /*    padding-bottom: 600px;*/
 }
 
 .maincontent h1 {
@@ -400,7 +401,7 @@ p.aboutus {
 
 .trainer-section {
     padding-top: 200px;
-/*    padding-bottom: 200px;*/
+    /*    padding-bottom: 200px;*/
     background-color: #eaeaea;
 }
 
@@ -426,11 +427,10 @@ img.trainer {
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     border-bottom: 4px solid #ff6878;
--webkit-clip-path: polygon(100% 0, 100% 70%, 0 100%, 0 0);
-clip-path: polygon(100% 0, 100% 70%, 0 100%, 0 0);
-    
+    -webkit-clip-path: polygon(100% 0, 100% 70%, 0 100%, 0 0);
+    clip-path: polygon(100% 0, 100% 70%, 0 100%, 0 0);
     -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 100%, 50% 100%, 0 100%, 0% 25%);
-clip-path: polygon(50% 0%, 100% 25%, 100% 100%, 50% 100%, 0 100%, 0% 25%);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 100%, 50% 100%, 0 100%, 0% 25%);
 }
 
 .trainerbox {
@@ -444,10 +444,9 @@ clip-path: polygon(50% 0%, 100% 25%, 100% 100%, 50% 100%, 0 100%, 0% 25%);
     -webkit-transition: all .3s ease;
     -moz-transition: all .3s ease;
     background: #FFF;
-    padding-bottom:15px;
-    
+    padding-bottom: 15px;
     -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 100%, 50% 100%, 0 100%, 0% 25%);
-clip-path: polygon(50% 0%, 100% 25%, 100% 100%, 50% 100%, 0 100%, 0% 25%);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 100%, 50% 100%, 0 100%, 0% 25%);
 }
 
 .trainerbox:hover {
@@ -460,7 +459,6 @@ clip-path: polygon(50% 0%, 100% 25%, 100% 100%, 50% 100%, 0 100%, 0% 25%);
     -webkit-box-shadow: 0px 7px 5px -1px rgba(181, 181, 181, 1);
     -moz-box-shadow: 0px 7px 5px -1px rgba(181, 181, 181, 1);
     box-shadow: 0px 7px 5px -1px rgba(181, 181, 181, 1);
-    
 }
 
 .trainerbox:hover p.name {
@@ -542,13 +540,14 @@ a.restofteam:active {
     color: #FFF;
     font-size: 14pt;
     letter-spacing: 2px;
-    padding-bottom:60px;
-    background-color:#eaeaea;
-    margin-top:250px;
+    padding-bottom: 60px;
+    background-color: #eaeaea;
+    margin-top: 250px;
+    /*
     -webkit-clip-path: polygon(0 5%, 100% 0, 100% 100%, 50% 100%, 0 100%, 0 46%);
 clip-path: polygon(0 5%, 100% 0, 100% 100%, 50% 100%, 0 100%, 0 46%);
     
-    
+    */
 }
 
 .pricingclass h2 {
@@ -562,25 +561,24 @@ clip-path: polygon(0 5%, 100% 0, 100% 100%, 50% 100%, 0 100%, 0 46%);
     width: auto;
 }
 
-
-.rightspace{
-        float: right;
+.rightspace {
+    float: right;
     margin-right: 100px;
-    margin-top:100px;
+    margin-top: 100px;
 }
 
 .pricingclass table {
-    border-collapse:collapse;
+    border-collapse: collapse;
     font-weight: 100;
-    font-size:14pt;
+    font-size: 14pt;
 }
 
 td.starter {
     background-color: #ff6878;
     width: 350px;
     height: 200px;
-        padding-top:40px;
-    padding-bottom:40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     /*    border:2px solid #000000;*/
 }
 
@@ -588,18 +586,17 @@ td.elite {
     background-color: #10aee8;
     width: 350px;
     height: 200px;
-    padding-top:40px;
-    padding-bottom:40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     /*    border:2px solid #000000;*/
 }
 
-
 .pricingclass li {
-    text-align:left;
-    margin-left:40px;
-    margin-right:40px;
+    text-align: left;
+    margin-left: 40px;
+    margin-right: 40px;
     font-weight: 100;
-    font-size:12pt;
+    font-size: 12pt;
 }
 
 a.signup {
@@ -608,8 +605,8 @@ a.signup {
     padding: 10px 30px;
     letter-spacing: 2px;
     font-weight: 100;
-    position:relative;
-    top:5px;
+    position: relative;
+    top: 5px;
     cursor: pointer;
     transition: all .3s ease;
     -webkit-transition: all .3s ease;
@@ -619,8 +616,7 @@ a.signup {
 a.signup:hover {
     border: 2px solid #FFFFFF;
     color: #ff6878;
-    background-color:#FFF;
-    
+    background-color: #FFF;
     transition: all .3s ease;
     -webkit-transition: all .3s ease;
     -moz-transition: all .3s ease;
@@ -632,8 +628,8 @@ a.signup2 {
     padding: 10px 30px;
     letter-spacing: 2px;
     font-weight: 100;
-    position:relative;
-    top:5px;
+    position: relative;
+    top: 5px;
     cursor: pointer;
     transition: all .3s ease;
     -webkit-transition: all .3s ease;
@@ -643,25 +639,128 @@ a.signup2 {
 a.signup2:hover {
     border: 2px solid #FFFFFF;
     color: #10aee8;
-    background-color:#FFF;
-    
+    background-color: #FFF;
     transition: all .3s ease;
     -webkit-transition: all .3s ease;
     -moz-transition: all .3s ease;
 }
 
-
-.footer{
-    height:600px;
-    width:100%;
-/*    background:linear-gradient(rgba(32, 173, 226, 0.75), rgba(255, 57, 110, 0.73)),*/
-    background:linear-gradient(rgba(46, 46, 46, 0.75), rgba(46, 46, 46, 0.75)),
- 
-        url(images/shoes.jpg) no-repeat;
-    background-size:100% 100%;
-    
+.footer {
+    height: 600px;
+    width: 100%;
+    /*    background:linear-gradient(rgba(32, 173, 226, 0.75), rgba(255, 57, 110, 0.73)),*/
+    background: linear-gradient(rgba(46, 46, 46, 0.75), rgba(46, 46, 46, 0.75)), url(images/shoes.jpg) no-repeat;
+    background-size: 100% 100%;
+    text-align: ;
+    padding-top: 100px;
+    color: rgba(193, 193, 193, 0.65);
+    font-size: 12pt;
+    font-weight: 100;
+    letter-spacing: 2px;
+    margin-top:-50px;
 }
 
+.footerinfo {
+    padding-left: 145px;
+    padding-top: 45px;
+    /*    border:2px solid red;*/
+    width: 50%;
+    height: 300px;
+}
+
+.footerinfo2 {
+    padding-left: 45px;
+    padding-top: 45px;
+    /*    border:2px solid white;*/
+    width: 50%;
+    height: 300px;
+    float: right;
+}
+
+a.freetrial {
+    color: #FFFFFF;
+    background-color: #10aee8;
+    background-color: #ff6878;
+    padding: 15px 25px;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    border: 2px solid transparent;
+    font-weight: 100;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+}
+
+a.freetrial:hover {
+    background-color: #ff8693;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+}
+
+a.freetrial:active {
+    background-color: #ce3c4c;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+}
+
+.footer h2 {
+    font-size: 22pt;
+    color: #FFF;
+    font-weight: 100;
+}
+
+.footer table {
+    /*        border:2px solid blue;*/
+    width: 70%;
+    text-align: left;
+}
+
+td.lefttext {
+    width: 50%;
+}
+
+a.social {
+    color: rgba(193, 193, 193, 0.65);
+    cursor: pointer;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 30pt;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+}
+
+a.social:hover {
+    color: #10aee8;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+}
+
+a.social:active {
+    color: #047ba7;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+}
+
+.sociallnks {
+    position: relative;
+    top: 150px;
+    float: right;
+    margin-right: 50px;
+}
+
+.copyrght {
+    position: relative;
+    top: 170px;
+    margin-left: 100px;
+    margin-right: 50px;
+}
 
 
 /* main site color #10aee8 and #ff6878;*/
