@@ -427,10 +427,7 @@ img.trainer {
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     border-bottom: 4px solid #ff6878;
-    -webkit-clip-path: polygon(100% 0, 100% 70%, 0 100%, 0 0);
-    clip-path: polygon(100% 0, 100% 70%, 0 100%, 0 0);
-    -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 100%, 50% 100%, 0 100%, 0% 25%);
-    clip-path: polygon(50% 0%, 100% 25%, 100% 100%, 50% 100%, 0 100%, 0% 25%);
+    
 }
 
 .trainerbox {
