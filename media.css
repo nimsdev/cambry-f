@@ -1,353 +1,294 @@
-@media only screen  and (min-width: 320px) and (max-width: 680px) {
-
-.trainerbox {
-    border: 3px solid rgba(201, 201, 201, 0.19);
-    width: 100%;
-    display:block;
-    height: 550px;
-    border-radius: 5px;
-    position: relative;
-    bottom: 0px;
-    transition: all .3s ease;
-    -webkit-transition: all .3s ease;
-    -moz-transition: all .3s ease;
-    background: #FFF;
-    padding-bottom: 15px;
-    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
-    
+@media only screen and (min-width: 320px) and (max-width: 680px) {
+    .trainerbox {
+        border: 3px solid rgba(201, 201, 201, 0.19);
+        width: 100%;
+        display: block;
+        height: 550px;
+        border-radius: 5px;
+        position: relative;
+        bottom: 0px;
+        transition: all .3s ease;
+        -webkit-transition: all .3s ease;
+        -moz-transition: all .3s ease;
+        background: #FFF;
+        padding-bottom: 15px;
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
     }
-    
     .trainer-section td {
         display: block;
-        
-    }    
-
-    .trainer-section h1{
-        font-size:26pt;
     }
-    
-    
-    
-    body{
-       width:100%;
-        overflow-x:hidden;
+    .trainer-section h1 {
+        font-size: 26pt;
     }
-    
-    
-    
-.header .brand {
-    display:block;
-    font-size: 16px;
-    margin-left: 00px;
-    text-align:center;
-    padding-bottom: 0px;
-    margin-top: 20px;
-    height: 1px;
-}
-
-.brand .scrolling {
-    color: #10aee8;
-}
-
-.header-ul {
-    display:none;
-}
-    .userslider{
-        display:none;
+    body {
+        width: 100%;
+        overflow-x: hidden;
     }
- .rightspace {
-    float: left;
-     margin-left:10px;
-     margin-right:10px;
-    margin-right: 0px;
-    margin-top: 10px;
-     width:100%;
-}   
-  
-    
-    .pricingclass{
-        height:1400px;
+    .header .brand {
+        display: block;
+        font-size: 16px;
+        margin-left: 00px;
+        text-align: center;
+        padding-bottom: 0px;
+        margin-top: 20px;
+        height: 1px;
     }
-    
-    a.restofteam{
-        border-radius:0px;
-        font-size:10pt;
+    .brand .scrolling {
+        color: #10aee8;
     }
-    
-.pricingclass table {
-    border-collapse: collapse;
-    font-weight: 100;
-    font-size: 14pt;
-    width:95%;
-}
-
-td.starter {
-    background-color: #ff6878;
-    width: 100%;
-    height: 200px;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    display:block;
-    /*    border:2px solid #000000;*/
-}
-
-td.elite {
-    background-color: #10aee8;
-   width: 100%;
-    height: 200px;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    display:block;
-    /*    border:2px solid #000000;*/
-}
-
-.pricingclass li {
-    text-align: left;
-    margin-left: 40px;
-    margin-right: 40px;
-    font-weight: 100;
-    font-size: 12pt;
-}    
-    
-   
+    .header-ul {
+        display: none;
+    }
+    .userslider {
+        display: none;
+    }
+    .rightspace {
+        float: left;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-right: 0px;
+        margin-top: 10px;
+        width: 100%;
+    }
+    .pricingclass {
+        height: 1400px;
+    }
+    a.restofteam {
+        border-radius: 0px;
+        font-size: 10pt;
+    }
+    .pricingclass table {
+        border-collapse: collapse;
+        font-weight: 100;
+        font-size: 14pt;
+        width: 95%;
+    }
+    td.starter {
+        background-color: #ff6878;
+        width: 100%;
+        height: 200px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        display: block;
+        /*    border:2px solid #000000;*/
+    }
+    td.elite {
+        background-color: #10aee8;
+        width: 100%;
+        height: 200px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        display: block;
+        /*    border:2px solid #000000;*/
+    }
+    .pricingclass li {
+        text-align: left;
+        margin-left: 40px;
+        margin-right: 40px;
+        font-weight: 100;
+        font-size: 12pt;
+    }
     .footerinfo {
-    padding-left: 35px;
-    padding-top: 45px;
-    /*    border:2px solid red;*/
-    width: 90%;
-    height: 300px;
-}
-
-.footerinfo2 {
-    padding-left: 45px;
-    padding-top: 45px;
-    /*    border:2px solid white;*/
-    width: 100%;
-    height: 300px;
-    float: none;
-}
-    
-.sociallnks {
-display:none;
-}
-
-.copyrght {
-display:none;
-}
-    
-    .footer{
-        padding-top:10px;
-        padding-bottom:100px;
+        padding-left: 35px;
+        padding-top: 45px;
+        /*    border:2px solid red;*/
+        width: 90%;
+        height: 300px;
     }
-    
-.cardio {
-    background: linear-gradient(rgba(51, 51, 51, 0.71), rgba(51, 51, 51, 0.71)), url(images/runner.jpeg) no-repeat;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    width: 100%;
-    background-size: 100% 100%;
-    transition: all .4s ease;
-    -webkit-transition: all .4s ease;
-    -moz-transition: all .4s ease;
-    color: white;
-}    
-    
-.cardio p {
-    color: white;
-    transition: all .4s ease;
-    -webkit-transition: all .4s ease;
-    -moz-transition: all .4s ease;
-}
-    
-.cardio h3 {
-    /*    line-height: 10px;*/
-    font-size: 36pt;
-    margin-top: 90px;
-    transition: all .4s ease;
-    -webkit-transition: all .4s ease;
-    -moz-transition: all .4s ease;
-}
-    
-  
-    
-.strength, .yoga {
-    
-    padding-top: 100px;
-    padding-bottom: 100px;
-    width: 100%;
-    background-size: 100% 100%;
-    transition: all .4s ease;
-    -webkit-transition: all .4s ease;
-    -moz-transition: all .4s ease;
-    color: white;
-}    
-    
-.strength p {
-    color: white;
-    transition: all .4s ease;
-    -webkit-transition: all .4s ease;
-    -moz-transition: all .4s ease;
-}
-    
-.strength h3 {
-    /*    line-height: 10px;*/
-    font-size: 36pt;
-    margin-top: 90px;
-    transition: all .4s ease;
-    -webkit-transition: all .4s ease;
-    -moz-transition: all .4s ease;
-}    
-    
-.yoga p {
-    color: white;
-    transition: all .4s ease;
-    -webkit-transition: all .4s ease;
-    -moz-transition: all .4s ease;
-}
-    
-.yoga h3 {
-    /*    line-height: 10px;*/
-    font-size: 36pt;
-    margin-top: 90px;
-    transition: all .4s ease;
-    -webkit-transition: all .4s ease;
-    -moz-transition: all .4s ease;
-}    
-    
-p.aboutus {
-    text-align: left;
-    width: 90%;
-}
-    
-    img.logoclass{
-        width:90%;
-    }  
-    
-.infosection {
-font-size:15pt;
+    .footerinfo2 {
+        padding-left: 45px;
+        padding-top: 45px;
+        /*    border:2px solid white;*/
+        width: 100%;
+        height: 300px;
+        float: none;
     }
-    
-        
-    
-.holder, .holder2 {
-    height: 100%;
-    /*    width: 30%;*/
-    width: 90%;
-    margin-left: 20px;
-    margin-right: 20px;
-    border: 2px solid transparent;
-    /*    padding-left:20%;*/
-    /*    padding-right:20%;*/
-    letter-spacing: 2px;
-    font-weight: 100;
-    text-align: left;
-    transition: all .4s ease;
-    -webkit-transition: all .4s ease;
-    -moz-transition: all .4s ease;
-    font-size: 10pt;
+    .sociallnks {
+        display: none;
+    }
+    .copyrght {
+        display: none;
+    }
+    .footer {
+        padding-top: 10px;
+        padding-bottom: 100px;
+    }
+    .cardio {
+        background: linear-gradient(rgba(51, 51, 51, 0.71), rgba(51, 51, 51, 0.71)), url(images/runner.jpeg) no-repeat;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        width: 100%;
+        background-size: 100% 100%;
+        transition: all .4s ease;
+        -webkit-transition: all .4s ease;
+        -moz-transition: all .4s ease;
+        color: white;
+    }
+    .cardio p {
+        color: white;
+        transition: all .4s ease;
+        -webkit-transition: all .4s ease;
+        -moz-transition: all .4s ease;
+    }
+    .cardio h3 {
+        /*    line-height: 10px;*/
+        font-size: 36pt;
+        margin-top: 90px;
+        transition: all .4s ease;
+        -webkit-transition: all .4s ease;
+        -moz-transition: all .4s ease;
+    }
+    .strength,
+    .yoga {
+        padding-top: 100px;
+        padding-bottom: 100px;
+        width: 100%;
+        background-size: 100% 100%;
+        transition: all .4s ease;
+        -webkit-transition: all .4s ease;
+        -moz-transition: all .4s ease;
+        color: white;
+    }
+    .strength p {
+        color: white;
+        transition: all .4s ease;
+        -webkit-transition: all .4s ease;
+        -moz-transition: all .4s ease;
+    }
+    .strength h3 {
+        /*    line-height: 10px;*/
+        font-size: 36pt;
+        margin-top: 90px;
+        transition: all .4s ease;
+        -webkit-transition: all .4s ease;
+        -moz-transition: all .4s ease;
+    }
+    .yoga p {
+        color: white;
+        transition: all .4s ease;
+        -webkit-transition: all .4s ease;
+        -moz-transition: all .4s ease;
+    }
+    .yoga h3 {
+        /*    line-height: 10px;*/
+        font-size: 36pt;
+        margin-top: 90px;
+        transition: all .4s ease;
+        -webkit-transition: all .4s ease;
+        -moz-transition: all .4s ease;
+    }
+    p.aboutus {
+        text-align: left;
+        width: 90%;
+    }
+    img.logoclass {
+        width: 90%;
+    }
+    .infosection {
+        font-size: 15pt;
+    }
+    .holder,
+    .holder2 {
+        height: 100%;
+        /*    width: 30%;*/
+        width: 90%;
+        margin-left: 20px;
+        margin-right: 20px;
+        border: 2px solid transparent;
+        /*    padding-left:20%;*/
+        /*    padding-right:20%;*/
+        letter-spacing: 2px;
+        font-weight: 100;
+        text-align: left;
+        transition: all .4s ease;
+        -webkit-transition: all .4s ease;
+        -moz-transition: all .4s ease;
+        font-size: 10pt;
+    }
 }
-    
-    
-}
 
-
-@media only screen 
-and (min-width : 768px) 
-and (max-width : 1024px) 
-and (orientation : landscape) {
-
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     .trainerbox {
-    border: 3px solid rgba(201, 201, 201, 0.19);
-    
-    display:block;
-    height: 550px;
-    border-radius: 5px;
-    position: relative;
-    bottom: 0px;
-    transition: all .3s ease;
-    -webkit-transition: all .3s ease;
-    -moz-transition: all .3s ease;
-    background: #FFF;
-    padding-bottom: 15px;
-    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
-    
+        border: 3px solid rgba(201, 201, 201, 0.19);
+        display: block;
+        height: 550px;
+        border-radius: 5px;
+        position: relative;
+        bottom: 0px;
+        transition: all .3s ease;
+        -webkit-transition: all .3s ease;
+        -moz-transition: all .3s ease;
+        background: #FFF;
+        padding-bottom: 15px;
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
     }
-    
-    
-.cardio {
-    background: linear-gradient(rgba(51, 51, 51, 0.71), rgba(51, 51, 51, 0.71)), url(images/runner.jpeg) no-repeat;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    width: 100%;
-    background-size: 100% 100%;
-    transition: all .4s ease;
-    -webkit-transition: all .4s ease;
-    -moz-transition: all .4s ease;
-    color: white;
-}    
-    
-.cardio p {
-    color: white;
-    transition: all .4s ease;
-    -webkit-transition: all .4s ease;
-    -moz-transition: all .4s ease;
-}
-    
-.cardio h3 {
-    /*    line-height: 10px;*/
-    font-size: 36pt;
-    margin-top: 90px;
-    transition: all .4s ease;
-    -webkit-transition: all .4s ease;
-    -moz-transition: all .4s ease;
-}
-    
-  
-    
-.strength, .yoga {
-    
-    padding-top: 100px;
-    padding-bottom: 100px;
-    width: 100%;
-    background-size: 100% 100%;
-    transition: all .4s ease;
-    -webkit-transition: all .4s ease;
-    -moz-transition: all .4s ease;
-    color: white;
-}    
-    
-.strength p {
-    color: white;
-    transition: all .4s ease;
-    -webkit-transition: all .4s ease;
-    -moz-transition: all .4s ease;
-}
-    
-.strength h3 {
-    /*    line-height: 10px;*/
-    font-size: 36pt;
-    margin-top: 90px;
-    transition: all .4s ease;
-    -webkit-transition: all .4s ease;
-    -moz-transition: all .4s ease;
-}    
-    
-.yoga p {
-    color: white;
-    transition: all .4s ease;
-    -webkit-transition: all .4s ease;
-    -moz-transition: all .4s ease;
-}
-    
-.yoga h3 {
-    /*    line-height: 10px;*/
-    font-size: 36pt;
-    margin-top: 90px;
-    transition: all .4s ease;
-    -webkit-transition: all .4s ease;
-    -moz-transition: all .4s ease;
-}     
-    
+    .cardio {
+        background: linear-gradient(rgba(51, 51, 51, 0.71), rgba(51, 51, 51, 0.71)), url(images/runner.jpeg) no-repeat;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        width: 100%;
+        background-size: 100% 100%;
+        transition: all .4s ease;
+        -webkit-transition: all .4s ease;
+        -moz-transition: all .4s ease;
+        color: white;
+    }
+    .cardio p {
+        color: white;
+        transition: all .4s ease;
+        -webkit-transition: all .4s ease;
+        -moz-transition: all .4s ease;
+    }
+    .cardio h3 {
+        /*    line-height: 10px;*/
+        font-size: 36pt;
+        margin-top: 90px;
+        transition: all .4s ease;
+        -webkit-transition: all .4s ease;
+        -moz-transition: all .4s ease;
+    }
+    .strength,
+    .yoga {
+        padding-top: 100px;
+        padding-bottom: 100px;
+        width: 100%;
+        background-size: 100% 100%;
+        transition: all .4s ease;
+        -webkit-transition: all .4s ease;
+        -moz-transition: all .4s ease;
+        color: white;
+    }
+    .strength p {
+        color: white;
+        transition: all .4s ease;
+        -webkit-transition: all .4s ease;
+        -moz-transition: all .4s ease;
+    }
+    .strength h3 {
+        /*    line-height: 10px;*/
+        font-size: 36pt;
+        margin-top: 90px;
+        transition: all .4s ease;
+        -webkit-transition: all .4s ease;
+        -moz-transition: all .4s ease;
+    }
+    .yoga p {
+        color: white;
+        transition: all .4s ease;
+        -webkit-transition: all .4s ease;
+        -moz-transition: all .4s ease;
+    }
+    .yoga h3 {
+        /*    line-height: 10px;*/
+        font-size: 36pt;
+        margin-top: 90px;
+        transition: all .4s ease;
+        -webkit-transition: all .4s ease;
+        -moz-transition: all .4s ease;
+    }
+    body {
+        overflow-x: hidden;
+    }
 }
